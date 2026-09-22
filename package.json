@@ -1,0 +1,47 @@
+{
+  "name": "@profullstack/keys",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "One key for every Profullstack service. Ed25519-signed Power Keys minted at profullstack.com/shop and verified offline, over Web Crypto, in Node, Bun and at the edge.",
+  "keywords": [
+    "api-key",
+    "power-key",
+    "ed25519",
+    "web-crypto",
+    "profullstack",
+    "license-key",
+    "token",
+    "edge",
+    "middleware"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profullstack/keys.git"
+  },
+  "homepage": "https://profullstack.com/shop",
+  "bugs": {
+    "url": "https://github.com/profullstack/keys/issues"
+  },
+  "license": "MIT",
+  "author": "Profullstack, Inc.",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "types": "./index.d.ts",
+  "files": [
+    "src",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.11"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "test": "node --test"
+  }
+}
